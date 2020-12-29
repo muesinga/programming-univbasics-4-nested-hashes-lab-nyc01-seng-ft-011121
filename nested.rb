@@ -132,6 +132,8 @@ def adding_to_dennis
     }
 if programmer_hash[:dennis_ritchie][:languages]["Assembly"] 
   programmer_hash[:dennis_ritchie][:languages]["Assembly"] += 1
+else puts
+  "Ke"
 programmer_hash
 
 end

@@ -130,8 +130,7 @@ def adding_to_dennis
         :languages => ["C"]
       }
     }
-if programmer_hash[:dennis_ritchie][:languages]["Assembly"]
-  else programmer_hash[:dennis_ritchie][:languages]["Assembly"] += 1
+programmer_hash[:dennis_ritchie][:languages]["Assembly"] += 1
 programmer_hash
 
 end
